@@ -3,7 +3,7 @@ public class EjerciciosTema3 {
         sumar3Numeros(1, 2, 3);
 
         Coche coche = new Coche();
-        coche.agregarPuerta();
+        coche.agregarPuertas(3);
 
         System.out.println(coche.puertas);
     }
@@ -17,7 +17,7 @@ public class EjerciciosTema3 {
 class Coche {
     public int puertas = 2;
 
-    public void agregarPuerta() {
-        puertas++;
+    public void agregarPuertas(int cantidadNuevasPuertas) {
+        puertas += cantidadNuevasPuertas;
     }
 }
