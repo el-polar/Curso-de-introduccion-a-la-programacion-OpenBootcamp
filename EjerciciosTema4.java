@@ -38,7 +38,10 @@ public class EjerciciosTema4 {
     }
 
     public static void miDoWhile(int numeroDoWhile) {
-        
+        do {
+            System.out.println("DO-WHILE: " + numeroDoWhile);
+            numeroDoWhile++;
+        } while (numeroDoWhile < 3);
     }
 
     public static void miSwitch(String estacion) {
